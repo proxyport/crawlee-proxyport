@@ -1,0 +1,4 @@
+crawlee-proxyport-*.tgz
+src
+.git
+.npmignore

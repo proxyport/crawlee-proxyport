@@ -1,0 +1,27 @@
+{
+  "name": "crawlee-proxyport",
+  "version": "1.0.1",
+  "description": "proxyport rotating proxy integration for Crawlee web scraping framework",
+  "keywords": ["http", "https", "request", "client", "proxy", "crawlee"],
+  "tags": ["http", "https", "request", "client", "proxy", "crawlee"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Proxy Port <proxyportcom@gmail.com> (https://proxy-port.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proxyport/crawlee-proxyport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/proxyport/crawlee-proxyport/issues"
+  },
+  "homepage": "https://proxy-port.com/en/scraping-proxy/sdk/crawlee-proxyport",
+  "devDependencies": {
+    "@types/node": "^18.15.7",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@proxyport/proxyport": "^1.0.1",
+    "crawlee": "^3.3.0"
+  }
+}
